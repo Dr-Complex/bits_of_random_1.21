@@ -1,1 +1,1 @@
-This mod adds *random* stuff minecraft
+This mod adds *random* stuff to minecraft
