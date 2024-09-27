@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.dr_complex.bits_of_random.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
