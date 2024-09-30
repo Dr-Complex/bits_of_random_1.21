@@ -1,7 +1,6 @@
 package com.dr_complex.bits_of_random.data.providers;
 
 import com.dr_complex.bits_of_random.init.ModBlocks;
-import com.dr_complex.bits_of_random.init.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
 

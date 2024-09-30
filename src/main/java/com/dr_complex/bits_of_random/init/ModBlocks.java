@@ -1,21 +1,12 @@
 package com.dr_complex.bits_of_random.init;
 
 import com.dr_complex.bits_of_random.BitsOfRandom;
-import com.dr_complex.bits_of_random.lists.BlockSetTypeList;
-import com.dr_complex.bits_of_random.lists.WoodTypeList;
-import com.terraformersmc.terraform.sign.api.block.TerraformHangingSignBlock;
-import com.terraformersmc.terraform.sign.api.block.TerraformSignBlock;
-import com.terraformersmc.terraform.sign.api.block.TerraformWallHangingSignBlock;
-import com.terraformersmc.terraform.sign.api.block.TerraformWallSignBlock;
 import io.wispforest.owo.registration.reflect.BlockRegistryContainer;
 import net.minecraft.block.*;
-import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
-import net.minecraft.util.Identifier;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
