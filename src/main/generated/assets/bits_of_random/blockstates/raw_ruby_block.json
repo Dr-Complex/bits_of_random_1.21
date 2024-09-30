@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bits_of_random:block/raw_ruby_block"
+    }
+  }
+}

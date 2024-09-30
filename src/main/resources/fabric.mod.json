@@ -3,24 +3,43 @@
 	"id": "bits_of_random",
 	"version": "${version}",
 	"name": "Bits of Random",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This adds random stuff to minecraft",
 	"authors": [
-		"Me!"
+		"Dr Complex"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/bits_of_random/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.dr_complex.bits_of_random.BitsOfRandom"
 		],
+		"client": [
+			"com.dr_complex.bits_of_random.BitsOfRandomClient"
+		],
 		"fabric-datagen": [
 			"com.dr_complex.bits_of_random.BitsOfRandomDataGenerator"
 		]
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+
+			},
+			"badges": [ "library", "deprecated" ],
+			"parent": {
+				"id": "bits_of_random",
+				"name": "Bits of Random",
+				"description": "This adds random stuff to minecraft",
+				"icon": "assets/bits_of_random/icon.png",
+				"badges": [ "library" ]
+			},
+			"update_checker": true
+		}
 	},
 	"mixins": [
 		"bits_of_random.mixins.json"
